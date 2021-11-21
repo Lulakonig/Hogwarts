@@ -315,12 +315,20 @@ body {
 
 /*personalización del acordeón*/
 
+
+.accordion_asignaturas{
+    color: rgba(53, 36, 19, 0.918)!important;
+}
+
+
+
+
 .accordion-item{
     font-family: 'Cinzel', serif;
     font-size: 20px;
     background-color: rgb(72, 184, 204);
-    color: rgba(53, 36, 19, 0.918);
-    border-radius: 20px;
+    color: rgba(53, 36, 19, 0.918) !important;
+    
     
     
 }
@@ -329,20 +337,20 @@ body {
     font-family: 'Cinzel', serif;
     font-size: 20px;
     background-color: rgb(72, 184, 204);
-    color: rgba(53, 36, 19, 0.918);
+    color: rgba(53, 36, 19, 0.918)!important;
     
     
 }
 .accordion-button{
-    background-color: rgb(72, 184, 204);
+    background-color: rgb(72, 184, 204)!important;
     font-size: 20px;
-    color: rgba(53, 36, 19, 0.918);
+    color: rgba(53, 36, 19, 0.918)!important;
     
 }
 .accordion-collapse{
     background-color: rgb(72, 184, 204);
     font-size: 20px;
-    color: rgba(53, 36, 19, 0.918);
+    color: rgba(53, 36, 19, 0.918)!important;
     
     
 }
@@ -354,6 +362,7 @@ body {
    
 
 }
+
 
 
 /*Instalaciones*/
