@@ -671,14 +671,183 @@ body .timo {
     }
 }
 
-
-@media only screen 
-    and(max-width: 834px) 
-    and (min-width: 415px){
+@media only screen and(max-width: 895px) and (min-width: 320px){
+    /*bodies*/
+    body{
+        background-color: rgb(24, 13, 3);
     
-        body.ingresar{
-            body.ingresar{background-size: cover;
-                background-repeat: no-repeat;
-                margin: 0;
-                height: 100vh;}}
+        
+        /*principal*/
+        .casas {
+            color: lightyellow;
+            font-family: 'Cinzel', serif;
+            font-size: 37px;
+            text-align: center!important;
+            margin-top: 1cm;
+            margin-left: 1cm;
+        }
+        
+        p.hogwarts_texto {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+       /*instalaciones*/
+        
+        .casas {
+            color: lightyellow;
+            font-family: 'Cinzel', serif;
+            font-size: 36px;
+            text-align: center;
+            margin-top: auto;
+            margin-left: auto;
+        }
+        
+        .gallery__item {
+            width: 130px;
+            position: relative;
+            z-index: -1;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 150px;
+            grid-gap: 10px;
+            align-items: stretch;
+        }
+        
+       /*multimedia*/
+
+        .casas {
+            color: lightyellow;
+            font-family: 'Cinzel', serif;
+            font-size: 37px;
+            text-align: center;
+            margin-top: 1cm;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .houses{
+            width: 100%;
+            background-color: rgba(53, 36, 19, 0.918);
+            border-radius: 20px;
+            color: lightyellow;
+            font-family: 'Josefin Slab', serif;
+            text-align: center;
+            line-height: 30px;
+            padding-left: 1cm;
+            padding-right: 1cm;
+            padding-top: 1cm;
+            padding-bottom: 1cm;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1cm;
+            font-size: 30px;
+            animation-duration: 5s;
+            animation-name: aparecer;
+            width: 100%;
+        }
+        
+        .audio.himno {
+            width: 100%;
+        }
+        iframe {
+            width: 290px !important;    
+        }
+
+        Asignaturas
+
+.carrusel {
+    width: 100% !important;; 
+    margin-top: 3cm !important;;
+    margin: auto !important;; 
+    border-radius: 20px !important;;
 }
+
+/*examenes especiales*/
+
+.timo {
+    width: 100%;
+    margin-top: 1cm;
+    margin-right: 1cm;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body .timo {
+    width: 100%;
+    height: 100%;
+    margin-top: 1cm;
+    margin-right: 1cm;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.examenes {
+    width: 100%;
+    color: lightyellow;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/*asignaturas*/
+
+.carrusel {
+    width: 100%;
+    margin-top: 3cm;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+        /*casas*/
+
+        .casas {
+            color: lightyellow;
+            font-family: 'Cinzel', serif;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 1cm;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hogwarts_texto {
+            width: 100%;
+            background-color: rgba(53, 36, 19, 0.918);
+            border-radius: 20px;
+            color: lightyellow;
+            font-family: 'Josefin Slab', serif;
+            text-align: center;
+            line-height: 30px;
+            padding-left: 1cm;
+            padding-right: 1cm;
+            padding-top: 1cm;
+            padding-bottom: 1cm;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1cm;
+            font-size: 30px;
+            animation-duration: 5s;
+            animation-name: aparecer;
+           
+        }
+        img.Escudo {
+            width: 100%;
+        }
+        
+    }
+}
+

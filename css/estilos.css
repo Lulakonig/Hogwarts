@@ -497,9 +497,136 @@ a {
     body img.Escudo {
       width: 100%; } }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
-  body.ingresar body.ingresar {
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    height: 100vh; } }
+@media only screen and (max-width: 895px) and (min-width: 320px) {
+  /*bodies*/
+  body {
+    background-color: #180d03;
+    /*principal*/
+    /*instalaciones*/
+    /*multimedia*/
+    /*examenes especiales*/
+    /*asignaturas*/
+    /*casas*/ }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 37px;
+      text-align: center !important;
+      margin-top: 1cm;
+      margin-left: 1cm; }
+    body p.hogwarts_texto {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 36px;
+      text-align: center;
+      margin-top: auto;
+      margin-left: auto; }
+    body .gallery__item {
+      width: 130px;
+      position: relative;
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto; }
+    body .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 150px;
+      grid-gap: 10px;
+      align-items: stretch; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 37px;
+      text-align: center;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto; }
+    body .houses {
+      width: 100%;
+      background-color: rgba(53, 36, 19, 0.918);
+      border-radius: 20px;
+      color: lightyellow;
+      font-family: 'Josefin Slab', serif;
+      text-align: center;
+      line-height: 30px;
+      padding-left: 1cm;
+      padding-right: 1cm;
+      padding-top: 1cm;
+      padding-bottom: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1cm;
+      font-size: 30px;
+      animation-duration: 5s;
+      animation-name: aparecer;
+      width: 100%; }
+    body .audio.himno {
+      width: 100%; }
+    body iframe {
+      width: 290px !important; }
+    body Asignaturas
+.carrusel {
+      width: 100% !important;
+      margin-top: 3cm !important;
+      margin: auto !important;
+      border-radius: 20px !important; }
+    body .timo {
+      width: 100%;
+      margin-top: 1cm;
+      margin-right: 1cm;
+      border-radius: 10px;
+      text-align: center; }
+    body body .timo {
+      width: 100%;
+      height: 100%;
+      margin-top: 1cm;
+      margin-right: 1cm;
+      border-radius: 10px;
+      text-align: center; }
+    body .examenes {
+      width: 100%;
+      color: lightyellow;
+      font-size: 20px;
+      font-family: 'Cinzel', serif;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      line-height: 30px; }
+    body .carrusel {
+      width: 100%;
+      margin-top: 3cm;
+      margin: auto;
+      border-radius: 20px; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 28px;
+      text-align: center;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto; }
+    body .hogwarts_texto {
+      width: 100%;
+      background-color: rgba(53, 36, 19, 0.918);
+      border-radius: 20px;
+      color: lightyellow;
+      font-family: 'Josefin Slab', serif;
+      text-align: center;
+      line-height: 30px;
+      padding-left: 1cm;
+      padding-right: 1cm;
+      padding-top: 1cm;
+      padding-bottom: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1cm;
+      font-size: 30px;
+      animation-duration: 5s;
+      animation-name: aparecer; }
+    body img.Escudo {
+      width: 100%; } }
