@@ -1,0 +1,496 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*pagina de entrada*/
+.ingresar {
+  background: url(../imagenes/libros/libro4.jpeg);
+  background-repeat: no-repeat; }
+
+.ingreso {
+  text-align: center;
+  margin-top: 5cm; }
+
+.hog {
+  text-align: center;
+  animation-duration: 10s;
+  animation-name: aparecer; }
+
+/*Header*/
+header {
+  background: url(../imagenes/castillo/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.navbar {
+  font-family: 'Cinzel', serif;
+  font-style: bold;
+  background-image: linear-gradient(#1f1407, #4dcfe6); }
+
+.dropdown-menu {
+  font-family: 'Cinzel', serif;
+  background-image: linear-gradient(#1f1407, #4dcfe6);
+  font-style: bold; }
+
+/*Index*/
+body {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  background-color: #160b01; }
+  body .main__index {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 1cm;
+    color: lightyellow; }
+  body .expreso {
+    width: 20cm;
+    height: 10cm;
+    align-items: center; }
+  body .marcha {
+    text-align: center;
+    margin-top: 1cm; }
+
+.linea {
+  color: lightyellow;
+  height: 1px;
+  font-style: bold; }
+
+.linea2 {
+  color: #48b8cc;
+  height: 1px;
+  font-style: bold; }
+
+.hogwarts_texto {
+  background-color: rgba(53, 36, 19, 0.918);
+  border-radius: 20px;
+  color: lightyellow;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  line-height: 30px;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  margin-top: 1cm;
+  font-size: 30px;
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+/*examenes especiales*/
+.examenes {
+  color: lightyellow;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  margin-top: 1cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  text-align: center;
+  line-height: 30px; }
+
+.examenes_texto {
+  color: lightyellow;
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  text-align: center;
+  line-height: 30px;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  border-radius: 20px; }
+
+.timo {
+  width: 600px;
+  height: 400px;
+  margin-top: 1cm;
+  margin-right: 1cm;
+  border-radius: 10px;
+  text-align: center; }
+
+.examen1 {
+  background-color: rgba(68, 42, 21, 0.911);
+  padding-left: 1cm;
+  padding-top: 1cm;
+  padding-right: 1cm;
+  padding-bottom: 1cm;
+  border-radius: 20px; }
+
+.examen {
+  background-color: rgba(68, 42, 21, 0.911);
+  margin-top: 2cm;
+  padding-left: 1cm;
+  padding-top: 1cm;
+  padding-right: 1cm;
+  padding-bottom: 1cm;
+  border-radius: 20px; }
+
+.accordion-item {
+  margin-bottom: 1cm; }
+
+/*formulario*/
+.main__formulario {
+  color: lightyellow;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 30px; }
+
+.formulario {
+  color: lightyellow;
+  font: size 40px;
+  font-family: 'Josefin Slab', serif;
+  margin-left: 30px;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 1cm;
+  line-height: 40px; }
+  .formulario .boton {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    border: rgba(43, 26, 13, 0.911); }
+  .formulario .casillero {
+    border-radius: 10px; }
+
+/*casas*/
+/* la class CASAS pertenece a todos los h2 del sitio web*/
+.casas {
+  color: lightyellow;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm; }
+
+.houses {
+  background-color: rgba(53, 36, 19, 0.918);
+  border-radius: 20px;
+  color: lightyellow;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  line-height: 30px;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 1cm;
+  font-size: 30px;
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+.Escudo {
+  width: 8cm;
+  margin-bottom: 1cm;
+  text-align: center; }
+
+.himno {
+  width: 20px; }
+
+.video {
+  justify-content: center; }
+
+/*Asignaturas*/
+.main__asignaturas {
+  font-size: 20px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  margin-top: 1cm;
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+.asignaturas {
+  color: lightyellow;
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  line-height: 30px; }
+
+.carrusel {
+  width: 700px;
+  margin-top: 3cm;
+  margin: auto;
+  border-radius: 20px; }
+
+/*personalización del acordeón*/
+.accordion-item {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  background-color: #48b8cc;
+  color: rgba(53, 36, 19, 0.918);
+  border-radius: 20px; }
+
+.accordion-header {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  background-color: #48b8cc;
+  color: rgba(53, 36, 19, 0.918); }
+
+.accordion-button {
+  background-color: #48b8cc;
+  font-size: 20px;
+  color: rgba(53, 36, 19, 0.918); }
+
+.accordion-collapse {
+  background-color: #48b8cc;
+  font-size: 20px;
+  color: rgba(53, 36, 19, 0.918); }
+
+.accordion-body {
+  font-family: 'Josefin Slab', serif;
+  background-color: #48b8cc;
+  font-size: 20px;
+  color: rgba(53, 36, 19, 0.918); }
+
+/*Instalaciones*/
+.instalaciones {
+  color: lightyellow;
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 150px;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.gallery__item {
+  position: relative;
+  z-index: -1; }
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.gallery__title {
+  position: absolute;
+  bottom: 0;
+  color: lightyellow;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px; }
+
+.gallery__item:nth-child(Gran Salon) {
+  grid-column-start: span 1;
+  grid-row-start: span 4; }
+
+.gallery__item:nth-child(Invernadero) {
+  grid-row-start: span 2; }
+
+.gallery__item:nth-child(Exteriores) {
+  grid-row-start: span 1; }
+
+.gallery__item:nth-child(Gran Salon) {
+  grid-row-start: span 2; }
+
+.gallery__item:nth-child(Aula) {
+  grid-row-start: span 3; }
+
+.gallery__item:nth-child(Quidditch) {
+  grid-row-start: span 3; }
+
+/*multimedia*/
+.himno {
+  margin-top: 1cm;
+  text-align: center;
+  width: 10px; }
+
+/*footer*/
+.pie {
+  color: lightyellow;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  background-image: linear-gradient(#1f1407, #4dcfe6);
+  padding-top: 1cm;
+  margin-top: 1cm; }
+
+.logo {
+  width: 6cm;
+  height: 6cm; }
+
+.text-uppercase {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px; }
+
+.text-center {
+  color: lightyellow; }
+
+.iconos {
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+/* media queries*/
+@media only screen and (max-width: 896px) and (min-width: 414px) {
+  /*bodies*/
+  body {
+    background-color: #180d03;
+    /*principal*/
+    /*instalaciones*/
+    /*multimedia*/
+    /*examenes especiales*/
+    /*asignaturas*/
+    /*casas*/ }
+    body body.ingresar {
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      height: 100vh; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 37px;
+      text-align: center !important;
+      margin-top: 1cm;
+      margin-left: 1cm; }
+    body p.hogwarts_texto {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 36px;
+      text-align: center;
+      margin-top: auto;
+      margin-left: auto; }
+    body .gallery__item {
+      width: 130px;
+      position: relative;
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto; }
+    body .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 150px;
+      grid-gap: 10px;
+      align-items: stretch; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 37px;
+      text-align: center;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto; }
+    body .houses {
+      width: 100%;
+      background-color: rgba(53, 36, 19, 0.918);
+      border-radius: 20px;
+      color: lightyellow;
+      font-family: 'Josefin Slab', serif;
+      text-align: center;
+      line-height: 30px;
+      padding-left: 1cm;
+      padding-right: 1cm;
+      padding-top: 1cm;
+      padding-bottom: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1cm;
+      font-size: 30px;
+      animation-duration: 5s;
+      animation-name: aparecer;
+      width: 100%; }
+    body .audio.himno {
+      width: 100%; }
+    body iframe {
+      width: 290px !important; }
+    body Asignaturas
+.carrusel {
+      width: 100% !important;
+      margin-top: 3cm !important;
+      margin: auto !important;
+      border-radius: 20px !important; }
+    body .timo {
+      width: 100%;
+      margin-top: 1cm;
+      margin-right: 1cm;
+      border-radius: 10px;
+      text-align: center; }
+    body body .timo {
+      width: 100%;
+      height: 100%;
+      margin-top: 1cm;
+      margin-right: 1cm;
+      border-radius: 10px;
+      text-align: center; }
+    body .examenes {
+      width: 100%;
+      color: lightyellow;
+      font-size: 20px;
+      font-family: 'Cinzel', serif;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      line-height: 30px; }
+    body .carrusel {
+      width: 100%;
+      margin-top: 3cm;
+      margin: auto;
+      border-radius: 20px; }
+    body .casas {
+      color: lightyellow;
+      font-family: 'Cinzel', serif;
+      font-size: 28px;
+      text-align: center;
+      margin-top: 1cm;
+      margin-left: auto;
+      margin-right: auto; }
+    body .hogwarts_texto {
+      width: 100%;
+      background-color: rgba(53, 36, 19, 0.918);
+      border-radius: 20px;
+      color: lightyellow;
+      font-family: 'Josefin Slab', serif;
+      text-align: center;
+      line-height: 30px;
+      padding-left: 1cm;
+      padding-right: 1cm;
+      padding-top: 1cm;
+      padding-bottom: 1cm;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1cm;
+      font-size: 30px;
+      animation-duration: 5s;
+      animation-name: aparecer; }
+    body img.Escudo {
+      width: 100%; } }
