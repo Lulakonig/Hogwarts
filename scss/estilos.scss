@@ -741,18 +741,17 @@ body {
         animation-name: aparecer;
         width: 100%;
     }
-        
-        .himno {
-            margin-top: 1cm;
-            text-align: center;
-            width: 100px;
-        }
-        
-         iframe {
-            width: 183px !important;
-        }
+    .himno {
+        margin-top: 1cm;
+        text-align: center;
+        width: 100px;
+    }
+    
+     iframe {
+        width: 183px !important;
+    }
 
-        Asignaturas
+        /*Asignaturas*/
 
 .carrusel {
     width: 100% !important;; 
@@ -803,7 +802,7 @@ body {
         .casas {
             color: lightyellow;
             font-family: 'Cinzel', serif;
-            font-size: 28px;
+            font-size: 18px;
             text-align: center;
             margin-top: 1cm;
             margin-left: auto;
@@ -830,6 +829,25 @@ body {
             animation-name: aparecer;
         }
         
+        .hogwarts_texto {
+            width: 100%; 
+            background-color: rgba(53, 36, 19, 0.918);
+            border-radius: 20px;
+            color: lightyellow;
+            font-family: 'Josefin Slab', serif;
+            text-align: center;
+            line-height: 30px;
+            padding-left: 1cm; 
+            padding-right: 1cm; 
+            padding-top: 1cm; 
+            padding-bottom: 1cm;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1cm;
+            font-size: 25px;
+            animation-duration: 5s;
+            animation-name: aparecer;
+        }
         
         img.Escudo {
             width: 100%;
