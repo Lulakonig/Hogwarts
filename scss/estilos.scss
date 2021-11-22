@@ -491,11 +491,7 @@ body {
     /*bodies*/
     body{
         background-color: rgb(24, 13, 3);
-    body.ingresar{background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0;
-            height: 100vh;
-        }    
+    
         
         /*principal*/
         .casas {
@@ -590,15 +586,8 @@ body {
 
 /*examenes especiales*/
 
-.timo {
-    width: 100%;
-    margin-top: 1cm;
-    margin-right: 1cm;
-    border-radius: 10px;
-    text-align: center;
-}
 
-body .timo {
+.timo {
     width: 100%;
     height: 100%;
     margin-top: 1cm;
@@ -675,6 +664,8 @@ body .timo {
     /*body*/
     body{
         background-color: rgb(24, 13, 3);
+        
+        
     
         
         /*principal*/
@@ -703,60 +694,62 @@ body .timo {
             margin-left: auto;
         }
         
-        .gallery__item {
-            width: 130px;
-            position: relative;
-            z-index: -1;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
         .gallery-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             grid-auto-rows: 150px;
             grid-gap: 10px;
             align-items: stretch;
         }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 150px;
+            padding: 20px;
+            grid-gap: 10px;
+        }
         
        /*multimedia*/
 
-        .casas {
-            color: lightyellow;
-            font-family: 'Cinzel', serif;
-            font-size: 37px;
-            text-align: center;
+       .casas {
+        color: lightyellow;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 1cm;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .houses {
+        width: 100%;
+        background-color: rgba(53, 36, 19, 0.918);
+        border-radius: 20px;
+        color: lightyellow;
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        line-height: 30px;
+        padding-left: 1cm;
+        padding-right: 1cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1cm;
+        font-size: 20px;
+        animation-duration: 5s;
+        animation-name: aparecer;
+        width: 100%;
+    }
+        
+        .himno {
             margin-top: 1cm;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
+            width: 100px;
         }
         
-        .houses{
-            width: 100%;
-            background-color: rgba(53, 36, 19, 0.918);
-            border-radius: 20px;
-            color: lightyellow;
-            font-family: 'Josefin Slab', serif;
-            text-align: center;
-            line-height: 30px;
-            padding-left: 1cm;
-            padding-right: 1cm;
-            padding-top: 1cm;
-            padding-bottom: 1cm;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 1cm;
-            font-size: 30px;
-            animation-duration: 5s;
-            animation-name: aparecer;
-            width: 100%;
-        }
-        
-        .audio.himno {
-            width: 100%;
-        }
-        iframe {
-            width: 290px !important;    
+         iframe {
+            width: 183px !important;
         }
 
         Asignaturas
@@ -778,9 +771,9 @@ body .timo {
     text-align: center;
 }
 
-body .timo {
-    width: 100%;
-    height: 100%;
+.timo {
+    width: 600px;
+    height: auto;
     margin-top: 1cm;
     margin-right: 1cm;
     border-radius: 10px;
@@ -839,11 +832,12 @@ body .timo {
             margin-left: auto;
             margin-right: auto;
             margin-top: 1cm;
-            font-size: 30px;
+            font-size: 20px;
             animation-duration: 5s;
             animation-name: aparecer;
-           
         }
+        
+        
         img.Escudo {
             width: 100%;
         }
