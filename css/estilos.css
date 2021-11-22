@@ -498,7 +498,7 @@ a {
       width: 100%; } }
 
 @media only screen and (max-width: 413px) and (min-width: 320px) {
-  /*bodies*/
+  /*body*/
   body {
     background-color: #180d03;
     /*principal*/
@@ -510,7 +510,7 @@ a {
     body .casas {
       color: lightyellow;
       font-family: 'Cinzel', serif;
-      font-size: 37px;
+      font-size: 35px;
       text-align: center !important;
       margin-top: 1cm;
       margin-left: 1cm; }
